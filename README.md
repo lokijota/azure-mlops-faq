@@ -1,6 +1,6 @@
 # MLOps in Azure FAQ
 
-The contents below are answers to questions raised on the chat of the *"Microsoft Tech Briefings: Put MLOps into Practice"*, streamed on the 9th of February 2022 and presented by João Pedro Martins and Xiaopeng Li, available here: <https://mktoevents.com/Microsoft+Event/315885/157-GQE-382?wt.mc_id=AID3044244_QSG_SCL_571850>.
+The contents below are answers to questions raised on the chat of the *"Microsoft Tech Briefings: Put MLOps into Practice"*, streamed on the 9th of February 2022 and presented by João Pedro Martins and Xiaopeng Li, available here: <https://event.on24.com/eventRegistration/console/EventConsoleApollo.jsp?uimode=nextgeneration&eventid=3572037&sessionid=1&key=E9995E2F096823571711AA431CA86EB2&contenttype=A&eventuserid=305999&playerwidth=1000&playerheight=650&caller=previewLobby&text_language_id=en&localeCountryCode=UK&format=fhvideo1&newConsole=true&newTabCon=true> for offline viewing.
 
 
 ## Q: How do you setup MLOps and CI/CD in Azure Machine Learning?
