@@ -7,12 +7,12 @@ The contents below are answers to questions raised on the chat of the *"Microsof
 
 A: The architecture presented on during the session prescribes using Azure ML for the "inner loop" of the Data Science/Machine Learning work, using concepts like Pipelines, Datasets, Experiments or the Model registry. For the "outer loop", when you go to training at scale and automated deployments, the tooling we recommend is either Azure DevOps or GitHub Actions, which allow you to develop these end-to-end pipelines. 
 
-Some suggested startings points are https://github.com/microsoft/MLOpsPython for a reference implemenation with Azure DevOps, and for upcomgn 2.0 AML CLI/SDK, this training covers the essential pieces of the journey: https://docs.microsoft.com/en-us/learn/paths/train-models-azure-machine-learning-cli-v2/ . Another recommended content is the guidande for a secure setup of AML, available here: https://github.com/jhirono/amlsecurity
+Some suggested startings points are https://github.com/microsoft/MLOpsPython for a reference implemenation with Azure DevOps, and for upcomgn 2.0 AML CLI/SDK, this training covers the essential pieces of the journey: https://docs.microsoft.com/en-us/learn/paths/train-models-azure-machine-learning-cli-v2/ . Another recommended content is the guidande for a secure setup of AML, available here: https://github.com/jhirono/amlsecurity .
 
 
 ## Q: What about A/B testing to evaluate a model?
 
-A: Doing A/B testing of new models is actually highly recommended, but after the models have gone through an offline evaluation/error analysis phase against test data. A/B testing is supported out of the box in AML by leveraging the capabilities in Azure Kubernetes Service, see this documentation page: https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-azure-kubernetes-service?tabs=python#deploy-models-to-aks-using-controlled-rollout-preview
+A: Doing A/B testing of new models is actually highly recommended, but after the models have gone through an offline evaluation/error analysis phase against test data. A/B testing is supported out of the box in AML by leveraging the capabilities in Azure Kubernetes Service, see this documentation page: https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-azure-kubernetes-service?tabs=python#deploy-models-to-aks-using-controlled-rollout-preview .
 
 ## Q: How is the data drift handled in MLOPs Deployment?
 
