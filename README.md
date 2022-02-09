@@ -12,7 +12,7 @@ As Jota is talking about now, we need a mix of competence including data science
 
 ## Why is git not good to version Data snapshot?
 
-One of the reasons is that Git has limits on the size of the files you check-in. Also, it was built for code/text assets, and data snapshots are usually binary files (eg, database snapshots or parquet files, not CSVs). It can obviously be used for any type of file, but it just wasn't designed to deal with data blobs.
+Git/GitHub is a great tool and a best-of-breed for CI/CD, much like Azure DevOps. However, for "binary blobs" of data, it's not what I'd advise. What's a merge for blobs of data , for example? To version data, it makes more sense to use a data-specific versioning mechanism (like Datasets or other). Other reason is that Git has limits on the size of the files you check-in. And if you are using something like Parquet, a single dataset would be across multiple files -- you wouldn't get a file by version, but a set of files by version. There's just not a perfect match between versioning the two -- you could see it as similar to the "object-relational impendance mismatch" in Computer Science.
 
 ## In your experience, what is the "best" model interpretability method for ANN's? Could we receive the slides and links to relevant documentation after your session?
 
