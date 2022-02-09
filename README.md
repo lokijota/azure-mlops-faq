@@ -54,7 +54,7 @@ This is in fact frequent, yes, and it's present in our documentation. I (Jota) o
 
 Great question. There are several options -- I like to do it as part of the model training pipeline. Not only doing things like comparing metrics, but also running "unit tests" against pre-sampled data, to compared data distributions, and also doing error analysis. This is not simple and depends on the scenario, but just after model training is the right place to do it.
 
-# How is the responsible AI integrated in mlops ? by mlops dashboard ?
+# How is the responsible AI integrated in MLOps? by mlops dashboard?
 
 Azure ML has fairness capabilties built-in, but please check this repo for the most up to date features: https://github.com/microsoft/responsible-ai-toolbox . These features are being integrated into Azure Machine Learning.
 
